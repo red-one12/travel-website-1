@@ -647,9 +647,42 @@ main {
 
 
 
-
-
 .see-all-packages{
     margin-top: 50px;
     text-align: center;
+}
+
+
+
+
+
+/* perfect place section is starting...  */
+.perfect-place{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.perfect-place .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    gap: 20px;
+}
+.perfect-place .left h1{
+    font-size: 40px;
+    width: 70%;
+    font-weight: 800;
+}
+.perfect-place .left ul li{
+    font-weight: 800;
+    color: black;
+}
+.perfect-place .right{
+    width: 50%;
+}
+.perfect-place .right iframe{
+    width: 100%;
+    border-radius: 20px;
 }
