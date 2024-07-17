@@ -756,3 +756,39 @@ main {
     right: 5px;
     transform: rotate(-25deg);
 }
+
+
+
+
+/* footer is starting...  */
+footer{
+    background-color: rgba(19, 19, 24, 0.050);
+    padding: 110px 0px;
+    text-align: center;
+}
+footer .logo{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+footer > p{
+    width: 40%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+footer .icon-div{
+    width: 40%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    /* background-color: rebeccapurple; */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.277);
+    padding: 0px 0px 40px 0px;
+    margin-bottom: 20px;
+}
+footer .icon-div i{
+    font-size: 20px;
+}
