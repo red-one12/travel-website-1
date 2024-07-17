@@ -29,7 +29,9 @@ body {
     border-radius: 8px;
     text-decoration: none;
 }
-
+.p-color{
+    color: rgb(75, 75, 75);
+}
 
 
 
@@ -236,7 +238,7 @@ main {
 .destination .row-1 .left{
     /* background-color: rebeccapurple; */
     width: 50%;
-    background-image: url(/Images/Rectangle\ 5.png);
+    background-image: url(../Images/Rectangle\ 5.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -254,7 +256,7 @@ main {
 .destination .row-1 .right{
     /* background-color: rebeccapurple; */
     width: 50%;
-    background-image: url(/Images/Rectangle\ 8.png);
+    background-image: url(../Images/Rectangle\ 8.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -285,7 +287,7 @@ main {
 .destination .row-2 .left{
     /* background-color: rebeccapurple; */
     width: 35%;
-    background-image: url(/Images/Rectangle\ 6.png);
+    background-image: url(../Images/Rectangle\ 6.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -303,7 +305,7 @@ main {
 .destination .row-2 .middle{
     /* background-color: rebeccapurple; */
     width: 40%;
-    background-image: url(/Images/Rectangle\ 7.png);
+    background-image: url(../Images/Rectangle\ 7.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -321,7 +323,7 @@ main {
 .destination .row-2 .right{
     /* background-color: rebeccapurple; */
     width: 25%;
-    background-image: url(/Images/Rectangle\ 9.png);
+    background-image: url(../Images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -351,7 +353,7 @@ main {
 .destination .row-3 .left{
     /* background-color: rebeccapurple; */
     width: 40%;
-    background-image: url(/Images/Rectangle\ 11.png);
+    background-image: url(../Images/Rectangle\ 11.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -369,7 +371,7 @@ main {
 .destination .row-3 .right{
     /* background-color: rebeccapurple; */
     width: 60%;
-    background-image: url(/Images/Rectangle\ 10.png);
+    background-image: url(../Images/Rectangle\ 10.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -383,4 +385,67 @@ main {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 28px;
+}
+
+
+
+
+
+
+
+/* why choose section is starting...  */
+.why-choose{
+    /* background-color: gray; */
+    margin-top: 100px;
+}
+.why-choose .text{
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+}
+.why-choose .text h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-choose .row-1{
+    margin-top: 50px;
+    gap: 20px;
+}
+.why-choose .row-1 .card{
+    border: 1px solid black;
+    padding: 30px 40px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
+}
+.why-choose .row-1 .card i{
+    font-size: 60px;
+}
+.why-choose .row-1 .card h2{
+    font-size: 24px;
+}
+
+
+
+.why-choose .row-2{
+    margin-top: 50px;
+    gap: 20px;
+    margin: 20px auto;
+}
+.why-choose .row-2 .card{
+    border: 1px solid black;
+    padding: 30px 40px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
+    width: 49.5%;
+    margin: 0px auto;
+}
+.why-choose .row-2 .card i{
+    font-size: 60px;
+}
+.why-choose .row-1 .card h2{
+    font-size: 24px;
 }
